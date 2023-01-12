@@ -1,0 +1,1 @@
+export const truncate = (input, length=150) => {return input.length > length ? `${input.substring(0, length)}...` : input};
